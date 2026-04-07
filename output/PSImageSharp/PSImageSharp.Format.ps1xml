@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PSImageSharp.Format.ps1xml
+  Custom formatting for the PSImageSharp.PSImage type.
+  Displays Width, Height, Format, and SourcePath columns in table view.
+-->
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>PSImageSharp.PSImage</Name>
+      <ViewSelectedBy>
+        <TypeName>PSImageSharp.PSImage</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Width</Label>
+            <Width>8</Width>
+            <Alignment>Right</Alignment>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Height</Label>
+            <Width>8</Width>
+            <Alignment>Right</Alignment>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Format</Label>
+            <Width>8</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SourcePath</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Width</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Height</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Format</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SourcePath</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+  </ViewDefinitions>
+</Configuration>
