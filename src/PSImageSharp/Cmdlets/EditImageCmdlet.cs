@@ -12,7 +12,7 @@ namespace PSImageSharp.Cmdlets;
 /// combined in a single call; they are applied in the order listed below.
 ///
 /// Supported adjustments:
-///   -Grayscale            Convert to greyscale.
+///   -Grayscale            Convert to grayscale.
 ///   -Brightness &lt;float&gt;   Adjust brightness. Range: -1.0 to 1.0 (0 = no change).
 ///   -Contrast   &lt;float&gt;   Adjust contrast.   Range: -1.0 to 1.0 (0 = no change).
 ///   -Saturation &lt;float&gt;   Adjust saturation. Range: -1.0 to 1.0 (0 = no change).
@@ -37,7 +37,7 @@ public sealed class EditImageCmdlet : PSCmdlet
     [Parameter(Mandatory = true, ValueFromPipeline = true)]
     public PSImage? InputObject { get; set; }
 
-    /// <summary><para type="description">Convert the image to greyscale.</para></summary>
+    /// <summary><para type="description">Convert the image to grayscale.</para></summary>
     [Parameter]
     public SwitchParameter Grayscale { get; set; }
 

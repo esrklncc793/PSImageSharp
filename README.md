@@ -170,7 +170,7 @@ Edit-Image -InputObject <PSImage> [-Grayscale] [-Brightness <float>] [-Contrast 
 
 | Parameter | Range | Description |
 |---|---|---|
-| `-Grayscale` | switch | Convert to greyscale |
+| `-Grayscale` | switch | Convert to grayscale |
 | `-Brightness` | −1.0 → 1.0 | Adjust brightness (0 = no change) |
 | `-Contrast` | −1.0 → 1.0 | Adjust contrast (0 = no change) |
 | `-Saturation` | −1.0 → 1.0 | Adjust colour saturation (0 = no change) |
