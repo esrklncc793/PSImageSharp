@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PSImageSharp/PSImageSharp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PSImageSharp.Tests/PSImageSharp.Tests.csproj" />
+  </Folder>
+</Solution>
