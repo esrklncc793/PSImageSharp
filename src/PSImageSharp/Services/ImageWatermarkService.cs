@@ -19,9 +19,9 @@ public static class ImageWatermarkService
     /// <param name="watermarkPath">Path to the watermark image.</param>
     /// <param name="outputPath">Path where the output image is saved.</param>
     /// <param name="opacity">Opacity of the watermark (0.0 transparent – 1.0 opaque).</param>
-    /// <param name="position">Corner or centre position for the watermark.</param>
+    /// <param name="position">Corner or center position for the watermark.</param>
     /// <param name="scale">
-    /// Watermark size as a fraction of the shorter side of the base image (e.g. 0.2 = 20 %).
+    /// Watermark size as a fraction of the shorter side of the base image (e.g., 0.2 = 20 %).
     /// </param>
     public static void ApplyWatermark(
         string sourcePath,

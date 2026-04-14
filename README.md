@@ -45,7 +45,7 @@ Overlays a watermark image onto a base image.
 # Apply a watermark to a single image (overwrites in place)
 Add-ImageWatermark -Path photo.jpg -WatermarkPath logo.png
 
-# Save to a different file, centred, at 30 % opacity
+# Save to a different file, centered, at 30 % opacity
 Add-ImageWatermark -Path photo.jpg -WatermarkPath logo.png `
     -Destination photo_watermarked.jpg -Position Center -Opacity 0.3
 
